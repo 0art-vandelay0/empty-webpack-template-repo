@@ -1,18 +1,10 @@
-import Rectangle from '../src/js/rectangle.js';
+import Function from '../src/js/class1.js';
 
-describe('Rectangle', () => {
-    let rectangle;
+describe('Function', () => {
 
-    beforeEach(() => {
-        rectangle = new Rectangle(3,5);
+    test('should...', () => {
+        const objectVariable = new Object(parameters);
+        expect(objectVariable.property).toEqual(arguemnt);
     });
 
-    test('should correctly create a rectangle object using two sides', () => {
-        expect(rectangle.side1).toEqual(3);
-        expect(rectangle.side2).toEqual(5);
-    });
-
-    test('should correctly get the area of a rectangle object', () => {
-        expect(rectangle.getArea()).toEqual(15);
-    });
 });
